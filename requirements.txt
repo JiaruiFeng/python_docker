@@ -1,20 +1,21 @@
-pytorch_lightning
+lightning
 torch_geometric
--f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+-f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 pyg_lib
--f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+-f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 torch_scatter
--f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+-f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 torch_sparse
--f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+-f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 torch_cluster
--f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+-f https://data.pyg.org/whl/torch-2.0.1+cu117.html
 torch_spline_conv
--f https://data.dgl.ai/wheels/cu116/repo.html
+-f https://data.dgl.ai/wheels/cu117/repo.html
 dgl
 -f https://data.dgl.ai/wheels-test/repo.html
 dglgo
 scikit-learn
+PyGCL
 pandas
 seaborn
 pyyaml
@@ -29,3 +30,6 @@ ogb
 transformers[torch]
 tokenizers
 datasets
+termcolor
+sentence-transformers
+lmdb
